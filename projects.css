@@ -94,40 +94,17 @@ body{
 }
 
 #project a {
-  color: #f00;
+  color: yellow;
   font-weight: bold;
   text-decoration: none;
   transition: color 0.7s ease;
 }
 
 #project a:hover {
-  color: #0f0;
+  color: #fff;
 }
 
-/* The certification and contact styles are not used on this page, but kept them for completeness if this CSS is shared */
-#certifications ul {
-  list-style-type: none;
-  padding-left: 0;
-}
 
-#certifications li {
-  margin-bottom: 12px;
-  line-height: 1.6;
-}
-
-#certifications strong{
-    color: #f00;
-    font-weight: bold;
-    transition: color 0.5s ease;
-}
-
-#certifications strong:hover{
-    color: #0f0;
-}
-
-#contact strong{
-  color: #f00;
-}
 
 .footer{
   text-align: center;

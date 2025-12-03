@@ -73,11 +73,11 @@ body{
     display: flex;  
     flex-wrap: wrap;  
     justify-content: center;  
-    align-items: flex-start;  
-    max-width: 1200px;  
-    margin: 40px auto;  
+    align-items: flex-start; /* Align items to the top of the container */
+    max-width: 1200px; /* Set a maximum width for the centered content area */
+    margin: 40px auto; /* Center the container on the page and add top/bottom margin */
     padding: 20px;
-    gap: 20px;  
+    gap: 20px; /* Space between the boxes */
 }
 
 .section {
@@ -94,6 +94,7 @@ body{
     inset 0 0 160px rgba(0, 0, 0, 0.99),
     inset 0 0 100px rgba(0, 0, 0, 0.98),
     inset 0 0 60px rgba(0, 0, 0, 0.97);
+     
     cursor: pointer;  
 }
 
@@ -135,17 +136,17 @@ body{
 }
 
 #certifications strong{
-    color: #f00;
+    color: yellow;
     font-weight: bold;
     transition: color 0.5s ease;
 }
 
 #certifications strong:hover{
-    color: #0f0;
+    color: #fff;
 }
 
 #contact strong{
-  color: #f00;
+  color: yellow;
 }
 
 .footer{

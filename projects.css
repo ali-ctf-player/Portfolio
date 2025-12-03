@@ -118,3 +118,18 @@ body{
   box-shadow: 0 -4px 10px rgba(0,0, 0, 0.5);
   z-index: 1000;
 }
+
+@media (max-width: 768px) {
+    .navbar p {
+        display: none ; 
+    }
+
+    .navbar{
+      display: block;
+    }
+
+    .navbar a{
+      display: block;
+      text-align: center
+    }
+}

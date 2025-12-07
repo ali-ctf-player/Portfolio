@@ -3,39 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume Template</title>
+    <title>Projects - Eliekber Babayev</title>
     <link rel="stylesheet" href="projects.css" type="text/css">
-    
 </head>
 <body>
     
-
-    <div class="navbar">
-        <h1 class="logo">Eliekber Babayev</h1>
-        <p>Ethical Hacker | Penetration Tester | Red Teaming</p>
+    <header class="navbar">
+        <div class="logo-container">
+            <h1 class="logo">Eliekber Babayev</h1>
+            <p>Ethical Hacker | Penetration Tester | Red Teaming</p>
+        </div>
         <nav>
-            <a href="home.html">Home</a>
+            <a href="home.html" class="active">Home</a>
             <a href="about.html">About</a>
             <a href="projects.html">Projects</a>
-            <a href="file:///home/samurai/Documents/Modern%20Professional%20CV%20Resume.pdf">CV</a>
+            <a href="assets/Eliekber_Babayev_CV.pdf" target="_blank">CV</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
         </nav>
-    </div>
+    </header>
 
-    <div id="project" class="section" style="font-size: large;">
-        <h2>Projects</h2>
-        <p>These are some of my GitHub repositories:</p>
-        <ul style="list-style: none;">
-            <li><a href="https://github.com/ali-ctf-player/vulnhub-ctf-walkthroughs" target="_blank">VulnHub CTF Walkthroughs & WriteUps</a> My CTF WriteUps from VulnHub</li>
-            <li><a href="https://github.com/ali-ctf-player/SSHield" target="_blank">SSHield</a> Network-Based tool for Defending and Detecting Brute Force Attacks</li>
-            <li><a href="https://github.com/ali-ctf-player/ARPKill" target="_blank">ARPKill</a> Network-Based tool for deauthenticating clients from network and spoofing</li>
-            <li><a href="https://github.com/ali-ctf-player/DirSeeker" target="_blank">DirSeeker</a> Python-based directory brute-force tool for discovering hidden files and folders on web servers.
-It’s lightweight, customizable, and perfect for penetration testers & bug bounty hunters.</li>
-            <li><a href="https://github.com/ali-ctf-player/holbertonschool-higher_level_programming" target="_blank">Holbertonschool Higher Level Programming</a> Includes Intermediate level Python and MySQL Programming Languages Sripts</li>
-
-
-
-        </ul>
-    </div>
+    <main class="content-container">
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <p>These are some of my active and notable GitHub repositories:</p>
+            <ul>
+                <li>
+                    <a href="https://github.com/ali-ctf-player/vulnhub-ctf-walkthroughs" target="_blank"><b>VulnHub CTF Walkthroughs & WriteUps</b></a>
+                    <p>My detailed Capture The Flag (CTF) WriteUps from VulnHub challenges.</p>
+                </li>
+                <li>
+                    <a href="https://github.com/ali-ctf-player/SSHield" target="_blank"><b>SSHield</b></a>
+                    <p>A network-based tool designed for defending against and detecting Brute Force Attacks targeting SSH services.</p>
+                </li>
+                <li>
+                    <a href="https://github.com/ali-ctf-player/ARPKill" target="_blank"><b>ARPKill</b></a>
+                    <p>A network-based tool for deauthenticating clients from a network and executing ARP spoofing.</p>
+                </li>
+                <li>
+                    <a href="https://github.com/ali-ctf-player/DirSeeker" target="_blank"><b>DirSeeker</b></a>
+                    <p>A Python-based directory brute-force tool for discovering hidden files and folders on web servers.</p>
+                </li>
+                <li>
+                    <a href="https://github.com/ali-ctf-player/holbertonschool-higher_level_programming" target="_blank"><b>Holbertonschool Higher Level Programming</b></a>
+                    <p>A collection of scripts and exercises covering Intermediate level Python and MySQL programming languages.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
 
     <footer class="footer">
         <p>© 2025 Eliekber Babayev. All rights reserved.</p>

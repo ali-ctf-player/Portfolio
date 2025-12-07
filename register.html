@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Eliekber Babayev</title>
+    <link rel="stylesheet" href="home.css" type="text/css">
+    <link rel="stylesheet" href="register.css" type="text/css">
+</head>
+<body>
+    
+    <header class="navbar">
+        <div class="logo-container">
+            <h1 class="logo">Eliekber Babayev</h1>
+            <p>Ethical Hacker | Penetration Tester | Red Teaming</p>
+        </div>
+        <nav>
+            <a href="home.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="assets/Eliekber_Babayev_CV.pdf" target="_blank">CV</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+
+    <main class="auth-container">
+        
+        <div class="form-card">
+            <h2>Registration</h2>
+            <form action="/register" method="POST">
+                <div class="form-group">
+                    <label for="reg-username">Username</label>
+                    <input type="text" id="reg-username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-email">Email</label>
+                    <input type="email" id="reg-email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg-password">Password</label>
+                    <input type="password" id="reg-password" name="password" required>
+                </div>
+                <button type="submit" class="auth-btn primary">Register Account</button>
+            </form>
+            <p class="toggle-text">
+                Already have an account? <a href="login.html">Login here</a>
+            </p>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Eliekber Babayev. All rights reserved.</p>
+    </footer>
+   
+</body>
+</html>
